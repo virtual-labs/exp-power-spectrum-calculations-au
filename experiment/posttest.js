@@ -88,23 +88,88 @@
     /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
-    const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
-            answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+    const myQuestions = [
+        
+        
+                
+        {
+            question: "1. Algorithm used for converting time series EEG data to power spectral density:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "ICA", ///// Write the option 1 inside double quotes
+                b: "Bandpass filter", ///// Write the option 2 inside double quotes
+                c: "IR filter", ///// Write the option 2 inside double quotes
+                d: "FFT", ///// Write the option 2 inside double quotes
             },
+            
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        },
+
+
+
+        {
+            question: "2. Power spectrum density indicates:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Power distribution of EEG data series in time domain", ///// Write the option 1 inside double quotes
+                b: "Power distribution of EEG series in the frequency domain", ///// Write the option 2 inside double quotes
+                c: "Coherence of EEG series", ///// Write the option 2 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+
+
+
+        {
+            question: "3. Unit for PSD measurement in EEG data:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "µVolts square per dB", ///// Write the option 1 inside double quotes
+                b: " µVolts sqaure per Hz", ///// Write the option 2 inside double quotes
+                c: "Volts sqaure per sec", ///// Write the option 2 inside double quotes
+                d: "µVolts", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+
+
+        {
+            question: "4. Which of the following is a real function of frequency ?", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "PSD", ///// Write the option 1 inside double quotes
+                b: "FFT", ///// Write the option 2 inside double quotes
+                c: "PCA", ///// Write the option 2 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
+            },
+            
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+
+
+        {
+            question: "5. Power spectrum density method used for feature extraction of raw EEG signal", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Welch’s Method", ///// Write the option 1 inside double quotes
+                b: "K-nearest neighbors classifier", ///// Write the option 2 inside double quotes
+                c: "Bartlett method", ///// Write the option 2 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "a" ///// Write the correct option inside double quotes
+        },
 
 
         

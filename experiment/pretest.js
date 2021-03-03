@@ -88,23 +88,71 @@
      /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
-     const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
-            answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+     const myQuestions = [
+         
+        
+        {
+            question: "1. The brain electrical activity is represented as:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "ECG Signals", ///// Write the option 1 inside double quotes
+                b: "EMG Signals", ///// Write the option 2 inside double quotes
+                c: "EEG Signals", ///// Write the option 2 inside double quotes
+                d: "EOG Signals", ///// Write the option 2 inside double quotes
             },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+            
+            correctAnswer: "c" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+
+
+        {
+            question: "2. The unwanted signals present in EEG signals is known as:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Signals", ///// Write the option 1 inside double quotes
+                b: "Noise", ///// Write the option 2 inside double quotes
+                c: "PSD", ///// Write the option 2 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+
+
+
+        {
+            question: "3. The EEG signal processing involves:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Data Acquisition", ///// Write the option 1 inside double quotes
+                b: "Preprocessing", ///// Write the option 2 inside double quotes
+                c: "Feature extraction", ///// Write the option 2 inside double quotes
+                d: "All the above", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        },
+
+
+
+        {
+            question: "4. EEG signals were measured in:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Volts", ///// Write the option 1 inside double quotes
+                b: "Microvolts", ///// Write the option 2 inside double quotes
+                c: "Hertz", ///// Write the option 2 inside double quotes
+                d: "Millivolts", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
 
 
 
