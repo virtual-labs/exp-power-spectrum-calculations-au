@@ -1,1 +1,1 @@
-## Experiment name
+## Power spectrum calculations using different windows
